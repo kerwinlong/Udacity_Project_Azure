@@ -28,9 +28,9 @@ Name: cmsEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
 Secret description: cmsSecret
-Secret Key: 3a51cadc-dc5f-4503-959d-d4286f24d7a4
-Client Secret: wN48Q~SVo5ecjrNs-Fac1wvs9cRVgXVYPxEmjc.r
-Application (client) ID: 1660e7a3-74ae-4945-aea0-5bd962871c33
+Secret Key: f6709e2a-6d15-400d-a8f5-2a868c9ebf5e
+Client Secret: 1WP8Q~TIsPp~WpsNEb5pTq1Tph8DfRbdMNMqga0J
+Application (client) ID: 4b2ba46b-1415-41e3-8322-95bd4d31310b
 
 Application
 
@@ -41,17 +41,17 @@ If you are getting a "Validation failed for a resource" error, pick a different 
 After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
-BLOB_ACCOUNT: image11
+BLOB_ACCOUNT: tmsimages1
 BLOB_CONTAINER: images
 BLOB_STORAGE_KEY: S6bzS0PF/s1Dhwlf3hkVMJtAO7+suJjslA1BF/QUbe6scAkAkoh3YEDdgcud7f+Rdr3Z5pNC2LY8+ASt8lbp1Q==
 
-SQL_SERVER: cms.database.windows.net
+SQL_SERVER: tmsserver1.database.windows.net
 SQL_DATABASE: cms
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
-CLIENT_SECRET: liK8Q~KDwIGaXpH1UaR-RS3W0Bk8-apIqD32ectH
-SECRET_KEY: ac2df92a-66cf-4f47-875b-f5d027c33934
-CLIENT_ID: 4cec6730-afad-4714-b5bb-9b2c6666eaba
+CLIENT_SECRET: 1WP8Q~TIsPp~WpsNEb5pTq1Tph8DfRbdMNMqga0J
+SECRET_KEY: f6709e2a-6d15-400d-a8f5-2a868c9ebf5e
+CLIENT_ID: 4b2ba46b-1415-41e3-8322-95bd4d31310b
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
