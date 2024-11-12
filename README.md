@@ -20,8 +20,8 @@ Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
 Create container named "images". Set its access level to Container.
 From Security + networking > Access keys:
-Blob Storage key: 8vNfUqGqnND0GI1Yujdd17gwURdEyBwVsFfKuiwZJdByu8DEWhHc2R1RYcQFxxUX2vqx72OXiz2
-Blob connection string: DefaultEndpointsProtocol=https;AccountName=images11;AccountKey=8vNfUqGqnND0GI1Yujdd17gwURdEyBwVsFfKuiwZJdByu8DEWhHc2R1RYcQFxxUX2vqx72OXiz2/+AStSydbYA==;EndpointSuffix=core.windows.net
+Blob Storage key: S6bzS0PF/s1Dhwlf3hkVMJtAO7+suJjslA1BF/QUbe6scAkAkoh3YEDdgcud7f+Rdr3Z5pNC2LY8+ASt8lbp1Q==
+
 4. Microsoft Entra ID
 4.1. App Registration
 Name: cmsEntraID
@@ -43,8 +43,8 @@ After creation:
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
 BLOB_ACCOUNT: image11
 BLOB_CONTAINER: images
-BLOB_STORAGE_KEY: N1L3GpGK4J+EAkf2Bwu9QJXhS2JQF3mkK3Y1CUE7ah79tTmtUUDFnMKCBrVHSxGXpyw0J6QS2eEt+AStxkseeA==
-BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=image11;AccountKey=N1L3GpGK4J+EAkf2Bwu9QJXhS2JQF3mkK3Y1CUE7ah79tTmtUUDFnMKCBrVHSxGXpyw0J6QS2eEt+AStxkseeA==;EndpointSuffix=core.windows.net
+BLOB_STORAGE_KEY: S6bzS0PF/s1Dhwlf3hkVMJtAO7+suJjslA1BF/QUbe6scAkAkoh3YEDdgcud7f+Rdr3Z5pNC2LY8+ASt8lbp1Q==
+
 SQL_SERVER: cms.database.windows.net
 SQL_DATABASE: cms
 SQL_USER_NAME: cmsadmin
