@@ -1,20 +1,20 @@
 Resource Group
-Resource Group Name: cms
+Resource Group Name: tms
 2. SQL Database
-DB name: cms
-Server: cms.database.windows.net
+DB name: tmsdb
+Server: tmsserver1.database.windows.net
 DB region: us-east
 Admin login: cmsadmin
 Admin password: CMS4dmin
-Resource group: cms
+Resource group: tms
 DB workload env: Development
 DB compute + storage: DTU - Basic
 Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".
 Set everything else to default
 Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.
 3. Storage Account
-Resource group: cms
-Storage account name: images11 (needs to be unique)
+Resource group: tms
+Storage account name: tmsimages1 (needs to be unique)
 Advanced - Allow enabling anonymous access on individual containers: Enable
 Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
